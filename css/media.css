@@ -1,0 +1,389 @@
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .wrapper {margin: 0 10px;}
+
+  /*our team*/
+  .line-avatars {
+    margin-bottom: 20px;
+  }
+
+  .avatar {
+    margin: 10px 0 10px 0;
+  }
+
+  /*work section*/
+  .work-images {
+    max-width: 100%;
+    min-height: auto;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .work-pic-block {
+    margin: 10px;
+  }
+  /*servies -  what we do*/
+  .services{
+    min-height: auto;
+  }
+
+  .grid-services {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 4px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .serv{
+    min-width: 80%;
+  }
+
+  /*features section*/
+  .pic-features {
+    max-width: 100%;
+    grid-column-gap: 10px;
+  }
+
+  .flex-pic {
+    max-width: 100%;
+  }
+
+  .flex-pic img {
+    width: 100%;
+  }
+
+  /*contact section*/
+  .map-block {
+    background-position: center;
+    min-height: 350px;
+    margin-top: 30px;
+  }
+
+  .contacts-add-form {
+    min-width: 100px;
+    max-width: 40%;
+  }
+
+  .register-form {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .wrapper {margin: 0 10px;}
+
+  /*we are modest  about section*/
+  .about-section {height: auto;}
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-about-section {
+    margin-left: 10px;
+    max-width: 100%;
+  }
+
+  .text-about {max-width: 100%;}
+
+  /* our team secton*/
+  .ourteam {
+    min-height: auto;
+    padding-bottom: 20px;
+  }
+
+  .avatar {
+    position: relative;
+    max-width: 210px;
+    min-height: auto;
+  }
+
+  .avatar-nav {margin-top: 90px;}
+
+  /* work section*/
+  .work-section {min-height: auto;}
+
+  .work-images {
+    max-width: auto;
+    min-height: auto;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .work-pic-block {
+    margin: 0 10px 10px 0;
+    max-width: auto;
+    height: auto;
+  }
+
+  /* what we do - services section*/
+  .services {
+    min-height: auto;
+    padding-bottom: 20px;
+  }
+
+  .grid-services {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: auto;
+    max-width: auto;
+  }
+
+  /*features section*/
+  .features {
+    min-height: 732px;
+    background-color: #3a454d;
+  }
+
+  .pic-features {
+    display: grid;
+    max-width: auto;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    height: auto;
+  }
+
+  .features-head {margin: 20px 0 20px 0;}
+
+  .flex-pic {margin: 0 10px 20px 10px;}
+
+  /* contact section*/
+  .contacts-add-form {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .contact-line {max-width: 100%;}
+
+  .contacts {
+    max-width: 100%;
+    margin-right: 10px;
+  }
+
+  .position-form {
+    width: 100%;
+    padding-bottom: 20px;
+    height: auto;
+  }
+
+  .contact-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register-form {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    max-width: 100%;
+    height: 100%;
+    background: white;
+    margin: 0;
+  }
+
+  .map-block {
+    background-position: center;
+    min-height: 350px;
+    margin-top: 30px;
+  }
+
+  .footer-align {min-height: auto;}
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+
+  .wrapper {margin: 0 10px;}
+
+  .main-menu li {margin-bottom: 18px;}
+
+  .block-header {
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 0;
+  }
+
+  /*banner*/
+  .banner-inside {padding-top: 40px;}
+
+  .banner {min-height: auto;}
+
+  .topline {min-height: auto;}
+
+  .main-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .two-button-banner {justify-content: center;}
+
+  /*we are modest  about section*/
+  .about-section {height: auto;}
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-about-section {
+    margin-left: 10px;
+    max-width: 100%;
+  }
+
+  .text-about {max-width: 100%;}
+
+  .social-icons {justify-content: center;}
+
+  .social-icons a {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* our team secton*/
+  .ourteam {
+    align-items: center;
+    min-height: auto;
+    padding-bottom: 20px;
+  }
+
+  .line-avatars{justify-content: center;}
+
+  .avatar {
+    position: relative;
+    min-height: auto;
+    margin-top: 10px;
+  }
+
+  .avatar-nav {margin-top: 120px;}
+
+  /*lovely work*/
+  .work-images{justify-content: center;}
+
+  .button-block-work {margin: 0;}
+
+  /* what we do - services section*/
+  .services {
+    max-width: auto;
+    min-height: auto;
+    padding-bottom: 20px;
+  }
+
+  .grid-services {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: auto;
+    max-width: auto;
+  }
+
+  /*features section*/
+  .features {
+    min-height: auto;
+    background-color: #3a454d;
+  }
+
+  .pic-features {
+    display: grid;
+    max-width: auto;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    height: auto;
+  }
+
+  .features-head {margin: 20px 0 20px 0;}
+
+  .flex-pic img {max-width: 100%;}
+
+  .flex-pic {margin: 0 10px 20px 10px;}
+
+  .features-txt {width: 100%;}
+
+  /* contact section*/
+  .contact-column {max-width: 100%;}
+
+  .contacts-add-form {
+    min-width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .contact-line {max-width: 100%;}
+
+  .contacts {
+    max-width: 100%;
+    margin-right: 10px;
+  }
+
+  .position-form {
+    width: 100%;
+    padding-bottom: 20px;
+    height: auto;
+  }
+
+  .contact-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register-form {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    max-width: 100%;
+    height: 100%;
+    background: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .messege-write {min-width: auto;}
+
+  .contacts {
+    max-width: 100%;
+    padding-right: 10px;
+  }
+
+  .name-in {min-width: auto;}
+
+  .messenge-line {margin-right: 20px;}
+
+  .map-block {
+    background-position: center;
+    min-height: 350px;
+    margin-top: 20px;
+  }
+
+  .footer-align {
+    min-height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .social-icons-footer {
+    max-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .copyright {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .social-icons-footer a {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+}
