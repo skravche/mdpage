@@ -1,2 +1,3 @@
 # mdpage
-[*md*]("https://skravche.github.io/mdpage/")
+<!-- LINKS -->
+[GitHub page](https://skravche.github.io/mdpage/)
